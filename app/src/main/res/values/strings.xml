@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_username">example@gmail.com</string>
+    <string name="enter_password">Password</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="user">USER</string>
+    <string name="welcome">Welcome!</string>
+    <string name="info">Capture your item, get info.</string>
+    <string name="infoo">and instantly save it.</string>
+    <string name="next">NEXT</string>
+    <string name="password">password</string>
+    <string name="instructions">Instructions</string>
+    <string name="add_shoe_details">Add Shoe Details</string>
+    <string name="shoe_name">Shoe Name : </string>
+    <string name="shoe_size">Shoe Size :</string>
+    <string name="company">Company : </string>
+    <string name="description">Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="twelve_number">12</string>
+    <string name="eleven_number">11</string>
+    <string name="ten_number">10</string>
+    <string name="nine_number">9</string>
+    <string name="eight_number">8</string>
+    <string name="header_image_description">Header_Image</string>
+    <string name="shoe_name_dummy">sport Tennis</string>
+    <string name="company_name_dummy">Sport INC</string>
+    <string name="instructions1">Tab + icon to add new shoe item to the collection</string>
+    <string name="instructions2">Tab save button to save item</string>
+    <string name="logout">Log Out</string>
+    <string name="size">Size</string>
+    <string name="select_available_size">Select Available Size</string>
+</resources>

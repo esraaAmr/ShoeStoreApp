@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/rounded_shoe"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageShoeList"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/header_image_description"
+            android:src="@drawable/model_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameShoeList"
+            android:layout_width="236dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imageShoeList"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/shoe_name_dummy" />
+
+        <TextView
+            android:id="@+id/nameCompanyList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/nameShoeList"
+            app:layout_constraintTop_toBottomOf="@+id/nameShoeList"
+            tools:text="@string/company_name_dummy" />
+
+        <Button
+            android:id="@+id/sizeShoeList"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/rounded_circle_enabled"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/imageShoeList"
+            app:layout_constraintTop_toBottomOf="@+id/nameCompanyList"
+            tools:text="@string/nine_number" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <data>
+        <variable
+            name="shareViewModel"
+            type="com.udacity.shoestore.LoginViewModel" />
+    </data>
+</layout>
